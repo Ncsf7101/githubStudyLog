@@ -209,23 +209,25 @@ $ git diff
 
 为了方便，我们在一个空的文件夹中进行这个教程。我们在需要上传文件的文件夹中右击鼠标，选择Git Bash Here。
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+
+
+
+
+![Github怎么上传文件](photo01.png)
 
 首先，用" **git init** "命令初始化本地仓库，初始化成功后，会出现一个.git文件夹。如果你没有看到，可能是你没有把" 隐藏的项目 "这个选项选中。
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![Github怎么上传文件](photo03.png)
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
-
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![Github怎么上传文件](photo04.png)
 
 我们新建一个文件用来上传。
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
+![Github怎么上传文件](photo05.png)
 
 打开Github上你创建的库，找到红色方框中的内容，复制一下。
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![Github怎么上传文件](photo06.png)
 
 命令" **git add .** "：把Project文件夹中所有的文件都添加到本地仓库暂存区。
 
@@ -239,19 +241,19 @@ $ git diff
 
 **如果你想删除YYY仓库，可以用" git remote remove YYY "（git remote remove 仓库名）。**
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)
+![Github怎么上传文件](photo07.png)
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
+![Github怎么上传文件](photo08.png)
 
 如果命令" **git push -u YYY master** "执行失败，则输入" **git pull --rebase YYY master** "命令（**git pull --rebase** **仓库名 master**），然后在输入" **git push -u YYY master** "命令。
 
 打开Github上的库，找到图中所示的内容。
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)
+![Github怎么上传文件](photo09.png)
 
 点击master选项，就会出现如图所示的内容。
 
-![Github怎么上传文件](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
+![Github怎么上传文件](photo10.png)
 
  
 
@@ -275,4 +277,4 @@ $ git diff
 
  
 
-![img](file:///C:/Users/Ncsf7101/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
+![img](photo12.png)
