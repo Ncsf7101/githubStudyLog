@@ -203,6 +203,16 @@ $ git diff
 
  
 
+[上传GitHub]
+
+$ git remote add rqiang + 地址
+
+$ git pull --rebase origin master
+
+$ git push origin master
+
+
+
 **Git with GitHub**
 
  
