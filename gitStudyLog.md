@@ -213,6 +213,14 @@ $ git push origin master
 
 
 
+[修改GitHub]
+
+$ git push
+
+$ git push --set-upstream rqiang master
+
+
+
 **Git with GitHub**
 
  
